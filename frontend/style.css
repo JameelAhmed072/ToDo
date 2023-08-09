@@ -1,0 +1,49 @@
+/* Style for the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table headers */
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style for table cells */
+td {
+    padding: 8px;
+}
+
+/* Default style for table rows */
+.user-row {
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for checked rows */
+.checked-row {
+    background-color: #e0ffe0; /* Change this color to your desired checked background color */
+}
+
+/* Style for edit and delete buttons */
+.btn {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+/* Styling for checkbox input */
+.form-check-input {
+    margin-left: auto;
+    margin-right: auto;
+}
